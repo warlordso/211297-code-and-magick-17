@@ -17,7 +17,7 @@ ctx.fillStyle = "#000"
 ctx.fillText ("Ура вы победили!",  110, 50);
 ctx.fillText ("Список результатов:", 110, 70);
 
-var getMaxValue = function (anyArray) {
+var getMaxValue = function(anyArray) {
     var maxValue = -1;
 
     for (var index = 0; index < anyArray.length; index++) {
