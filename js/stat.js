@@ -1,4 +1,4 @@
-window.renderStatistics = function (ctx, names, times) {
+window.renderStatistics = function(ctx, names, times) {
 
 // тень облака
 
@@ -16,7 +16,6 @@ ctx.font = "16px, PT Mono";
 ctx.fillStyle = "#000"
 ctx.fillText ("Ура вы победили!",  110, 50);
 ctx.fillText ("Список результатов:", 110, 70);
-
 
 var getMaxValue = function (anyArray) {
     var maxValue = -1;
