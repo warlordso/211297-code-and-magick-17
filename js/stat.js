@@ -30,7 +30,7 @@ var getMaxValue = function(anyArray) {
 
   // Определение цвета
 
-  var getPlayerColor = function (playerName) {
+  var getPlayerColor = function(playerName) {
     if (playerName === 'Вы') {
       return 'rgba(255, 0, 0, 1)';
     } else {
